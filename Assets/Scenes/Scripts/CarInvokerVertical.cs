@@ -6,12 +6,12 @@ public class CarInvokerVertical : MonoBehaviour
 {
     public GameObject[] Garage;
     public SemaforoVertical SemaforoVisto;
-    float spawnTime;
+   // int random;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
         InvokeRepeating("InvocarCarros", 0, 1);
         
     }

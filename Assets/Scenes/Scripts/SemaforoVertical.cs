@@ -47,13 +47,13 @@ public class SemaforoVertical : MonoBehaviour
         {
 
             LuzRoja();
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(4);
 
             LuzVerde();
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(2);
 
             LuzAmarilla();
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(2);
 
         }
     }

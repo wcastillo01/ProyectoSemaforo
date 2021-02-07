@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class CarInvoker : MonoBehaviour
 {
-    public GameObject[] Garage;
+    
     public Semaforo SemaforoVisto;
-      
+    public GameObject[] Garage;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +18,9 @@ public class CarInvoker : MonoBehaviour
 
     void InvocarCarros()
     {
+        
         if (SemaforoVisto.run)
-        {
+        {            
             Instantiate(Garage[0], transform.position, Quaternion.identity);
         }
     }

@@ -22,6 +22,7 @@ public class Semaforo : MonoBehaviour
         luzVerde.SetActive(true);
         luzAmarilla.SetActive(false);
         luzRoja.SetActive(false);
+        new WaitForSeconds(0.2f);
         run = true;
     }
 
@@ -46,16 +47,14 @@ public class Semaforo : MonoBehaviour
     {
         while (true)
         {
-
             LuzVerde();
-            yield return new WaitForSeconds(1);
-
-            LuzAmarilla();
-            yield return new WaitForSeconds(1);
-
-            LuzRoja();
             yield return new WaitForSeconds(2);
 
+            LuzAmarilla();
+            yield return new WaitForSeconds(2);
+
+            LuzRoja();
+            yield return new WaitForSeconds(4);
 
         }
     }

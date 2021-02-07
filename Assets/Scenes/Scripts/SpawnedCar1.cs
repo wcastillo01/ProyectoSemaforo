@@ -20,7 +20,7 @@ public class SpawnedCar1 : MonoBehaviour
 
         if (run.GetComponent<Semaforo>().run || pase)
         {
-            transform.Translate(Vector2.right * 0.08f, Space.Self);
+            transform.Translate(Vector2.right * 2.5f * Time.deltaTime, Space.Self);
         }
         
 
@@ -37,6 +37,7 @@ public class SpawnedCar1 : MonoBehaviour
         if (collision.tag == "Collider1")
         {
             pase = true;
+
         }
 
     }
