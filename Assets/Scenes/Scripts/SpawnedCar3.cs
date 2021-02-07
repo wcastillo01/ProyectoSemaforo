@@ -21,7 +21,7 @@ public class SpawnedCar3 : MonoBehaviour
 
         if (run.GetComponent<SemaforoVertical>().run || pase)
         {
-            transform.Translate(Vector2.up * 2.4f * Time.deltaTime, Space.Self);
+            transform.Translate(Vector2.up * 2.46f * Time.deltaTime, Space.Self);
         }
 
     }

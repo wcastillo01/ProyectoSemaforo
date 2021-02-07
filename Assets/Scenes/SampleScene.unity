@@ -3097,7 +3097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SemaforoVisto: {fileID: 340175878}
   Garage:
-  - {fileID: 6391226906514146399, guid: 94e9753fd0c8f4b87b261306c44dc56c, type: 3}
+  - {fileID: 6391226906514146399, guid: cf6bdfdb179ab4b3c928330dc18f90a2, type: 3}
 --- !u!4 &1711797155
 Transform:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6391226906514146393}
   - component: {fileID: 6391226906514146398}
   m_Layer: 0
-  m_Name: Carro2
+  m_Name: Carro5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 268682b72c15c410c80ccdf09e5bc9e3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.95510143, g: 0.7429245, b: 0.990566, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
